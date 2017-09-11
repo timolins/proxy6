@@ -1,6 +1,6 @@
 {
   "name": "proxy6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API wrapper for proxy6.net",
   "main": "index.js",
   "repository": "timolins/proxy6",
