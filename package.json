@@ -1,0 +1,28 @@
+{
+  "name": "proxy6",
+  "version": "1.0.0",
+  "description": "API wrapper for proxy6.net",
+  "main": "index.js",
+  "repository": "timolins/proxy6",
+  "author": "Timo Lins <timo.lins@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "xo"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false,
+    "env": [
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
+}
